@@ -32,6 +32,11 @@ sudo apt install -y git-all
 echo "Installing Node.js and npm..."
 npm install -g npm
 
+
+sudo apt update
+sudo apt install python3-distutils
+
+
 sudo apt  install docker-compose
 
 # Verify installations
