@@ -32,6 +32,8 @@ sudo apt install -y git-all
 echo "Installing Node.js and npm..."
 npm install -g npm
 
+sudo apt  install docker-compose
+
 # Verify installations
 echo "Verifying curl installation..."
 curl --version
